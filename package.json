@@ -1,0 +1,42 @@
+{
+  "name": "experiment-todo",
+  "version": "1.0.0",
+  "description": "Experimental todo app to practice react redux",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kokkotso/experiment-todo-react-redux.git"
+  },
+  "author": "Kokko Tso",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kokkotso/experiment-todo-react-redux/issues"
+  },
+  "homepage": "https://github.com/kokkotso/experiment-todo-react-redux#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "pg": "^8.5.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-redux": "^7.2.2",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "sequelize": "^6.4.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "webpack": "^5.18.0",
+    "webpack-cli": "^4.4.0"
+  }
+}
